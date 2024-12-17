@@ -5,11 +5,10 @@
 #include "RectangleDecorator.h"
 
 
-RectangleDecorator::RectangleDecorator(std::shared_ptr<Rectangle> rectangle)
-        :Decorator(rectangle)
+RectangleDecorator::RectangleDecorator(const std::shared_ptr<Rectangle>& rectangle)
+        :Decorator(std::dynamic_pointer_cast<IShape>(rectangle))
 {
-    ComputeArea();
-    ComputePerimeter();
+    Compute();
 }
 
 void RectangleDecorator::ComputeArea()
@@ -22,4 +21,9 @@ void RectangleDecorator::ComputeArea()
 void RectangleDecorator::ComputePerimeter()
 {
     SetPerimeter(2 * GetArea());
+}
+
+void RectangleDecorator::Compute() {
+    ComputeArea();
+    ComputePerimeter();
 }

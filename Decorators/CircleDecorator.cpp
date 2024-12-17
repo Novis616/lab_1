@@ -5,10 +5,9 @@
 #include "CircleDecorator.h"
 
 CircleDecorator::CircleDecorator(const std::shared_ptr<Circle>& circle)
-        :Decorator(circle)
+        :Decorator(std::dynamic_pointer_cast<IShape>(circle))
 {
-    ComputePerimeter();
-    ComputeArea();
+    Compute();
 }
 
 void CircleDecorator::ComputeArea()
@@ -21,4 +20,9 @@ void CircleDecorator::ComputePerimeter()
 {
     float radius = std::dynamic_pointer_cast<Circle>(shape)->GetRadius();
     SetPerimeter(2 * M_PI * radius);
+}
+
+void CircleDecorator::Compute() {
+    ComputeArea();
+    ComputePerimeter();
 }

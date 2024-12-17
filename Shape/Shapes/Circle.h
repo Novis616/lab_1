@@ -16,12 +16,12 @@ class Circle : public IShape
 public:
     Circle(sf::Vector2f point1, float mRadius);
 
-    float GetRadius() const;
+    [[nodiscard]] float GetRadius() const;
     void draw(sf::RenderWindow& window) const override;
     void setFillColor(const sf::Color& color);
 private:
-    sf::Vector2f center;
-    sf::CircleShape shape;
+    sf::Vector2f center{};
+    sf::CircleShape shape{};
 };
 
 

@@ -20,8 +20,8 @@ public:
     void draw(sf::RenderWindow& window) const override;
     void setFillColor(const sf::Color& color);
 private:
-    std::vector<sf::Vector2f> points;
-    sf::ConvexShape shape;
+    std::vector<sf::Vector2f> points{};
+    sf::ConvexShape shape{};
 };
 
 

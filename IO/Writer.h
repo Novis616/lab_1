@@ -15,7 +15,7 @@
 class Writer
 {
 public:
-    Writer(const std::string& filename);
+    explicit Writer(std::string  filename);
     void writeShapes(const std::vector<std::unique_ptr<Decorator>>& shapes);
 private:
     std::string filename;

@@ -1,23 +1,17 @@
 #include <SFML/Graphics.hpp>
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <vector>
-#include <regex>
-#include <sstream>
+#include "Lib.h"
 #include "Point.h"
-#include "Triangle.h"
-#include "Circle.h"
-#include "Rectangle.h"
-#include "ShapeLoader.h"
-#include "ShapeWriter.h"
+#include "/Shape/Shapes/Triangle.h"
+#include "/Shape/Shapes/Circle.h"
+#include "Shape/Shapes/Rectangle.h"
+#include "/IO/Reader.h"
+#include "/IO/Writer.h"
 
 int main()
 {
-    ShapeLoader loader("input.txt");
-    auto shapes = loader.loadShapes();
+    Reader loader("input.txt");
+    auto shapes = loader.readShapes();
 
-    //переделать в класс отрисовку
     sf::RenderWindow window(sf::VideoMode(1000, 600), "Poject by Ruslan Sokolov");
     while (window.isOpen())
     {
@@ -35,7 +29,7 @@ int main()
         window.display();
     }
 
-    ShapeWriter writer("output.txt");
+    Writer writer("output.txt");
     writer.writeShapes(shapes);
     return 0;
 }

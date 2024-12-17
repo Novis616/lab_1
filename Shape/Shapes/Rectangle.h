@@ -20,8 +20,8 @@ public:
     void setFillColor(const sf::Color& color);
 private:
 
-    std::vector<sf::Vector2f> points;
-    sf::RectangleShape shape;
+    std::vector<sf::Vector2f> points{};
+    sf::RectangleShape shape{};
 };
 
 

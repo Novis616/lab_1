@@ -4,8 +4,10 @@
 
 #include "Writer.h"
 
-Writer::Writer(const std::string& filename)
-        :filename(filename)
+#include <utility>
+
+Writer::Writer(std::string  filename)
+        :filename(std::move(filename))
 {}
 
 void Writer::writeShapes(const std::vector<std::unique_ptr<Decorator>>& shapes)

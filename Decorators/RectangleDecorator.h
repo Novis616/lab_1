@@ -13,8 +13,9 @@
 class RectangleDecorator : public Decorator
 {
 public:
-    RectangleDecorator(std::shared_ptr<Rectangle>rectangle);
+    explicit RectangleDecorator(const std::shared_ptr<Rectangle>&rectangle);
 protected:
+    void Compute();
     void ComputeArea() override;
     void ComputePerimeter() override;
 };

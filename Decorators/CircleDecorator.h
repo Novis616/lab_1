@@ -11,8 +11,9 @@
 
 class CircleDecorator : public Decorator {
 public:
-    explicit CircleDecorator(const std::shared_ptr<Circle>& circle);
+    explicit CircleDecorator(const std::shared_ptr<Circle>&circle);
 protected:
+    void Compute();
     void ComputeArea() override;
     void ComputePerimeter() override;
 };

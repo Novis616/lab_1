@@ -19,11 +19,11 @@
 
 class Reader {
 public:
-    Reader(const std::string& filename);
+    explicit Reader(const std::string& filename);
     std::vector<std::unique_ptr<Decorator>> readShapes();
 private:
     std::string filename;
-    std::vector<Point> extractPoints(const std::string& points);
+    static std::vector<Point> extractPoints(const std::string& points);
 };
 
 

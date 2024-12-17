@@ -6,11 +6,10 @@
 
 
 
-TriangleDecorator::TriangleDecorator(std::shared_ptr<Triangle> triangle)
+TriangleDecorator::TriangleDecorator(const std::shared_ptr<Triangle>& triangle)
         : Decorator(std::dynamic_pointer_cast<IShape>(triangle))
 {
-    ComputePerimeter();
-    ComputeArea();
+    Compute();
 }
 
 void TriangleDecorator::ComputeArea()
@@ -35,4 +34,9 @@ void TriangleDecorator::ComputePerimeter()
     float side3 = sqrt(pow(abs(p2.x - p0.x), 2) + pow(abs(p2.y - p0.y), 2)); // Сторона между points[0] и points[2]
 
     SetPerimeter(side1 + side2 + side3);
+}
+
+void TriangleDecorator::Compute() {
+    ComputeArea();
+    ComputePerimeter();
 }

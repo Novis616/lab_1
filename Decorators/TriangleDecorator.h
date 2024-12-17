@@ -12,8 +12,9 @@
 
 class TriangleDecorator : public Decorator {
 public:
-    TriangleDecorator(std::shared_ptr<Triangle>triangle);
+    explicit TriangleDecorator(const std::shared_ptr<Triangle>&triangle);
 protected:
+    void Compute();
     void ComputeArea() override;
     void ComputePerimeter() override;
 };
