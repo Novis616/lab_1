@@ -19,8 +19,19 @@
 
 class Reader {
 public:
-    explicit Reader(const std::string& filename);
+    explicit Reader(std::string  filename);
     std::vector<std::unique_ptr<Decorator>> readShapes();
+
+    const std::string ERROR_FILE_OPEN = "Не удалось открыть файл: ";
+    const std::string SHAPE_TYPE_TRIANGLE = "TRIANGLE";
+    const std::string SHAPE_TYPE_RECTANGLE = "RECTANGLE";
+    const std::string SHAPE_TYPE_CIRCLE = "CIRCLE";
+    const sf::Color TRIANGLE_COLOR = sf::Color(255, 0, 0);
+    const sf::Color RECTANGLE_COLOR = sf::Color(255, 117, 20);
+    const sf::Color CIRCLE_COLOR = sf::Color(237, 118, 14);
+
+    const std::string SHAPE_REGEX_PATTERN = R"((TRIANGLE|RECTANGLE|CIRCLE):\s*((?:P\d=\d+,\d+;\s*)*(?:P\d=\d+,\d+)?(?:C=\d+,\d+;\s*R=\d+)?)?)";
+
 private:
     std::string filename;
     static std::vector<Point> extractPoints(const std::string& points);

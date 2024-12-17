@@ -4,9 +4,11 @@
 
 #include "Reader.h"
 
+#include <utility>
 
-Reader::Reader(const std::string& filename)
-        : filename(filename)
+
+Reader::Reader(std::string  filename)
+        : filename(std::move(filename))
 {}
 
 std::vector<std::unique_ptr<Decorator>> Reader::readShapes()
@@ -14,13 +16,13 @@ std::vector<std::unique_ptr<Decorator>> Reader::readShapes()
     std::ifstream file(filename);
     if (!file.is_open())
     {
-        std::cerr << "Не удалось открыть файл: " << filename << std::endl;
+        std::cerr << ERROR_FILE_OPEN << filename << std::endl;
         return {};
     }
 
     std::string line;
     std::vector<std::unique_ptr<Decorator>> bodies;
-    std::regex shapeRegex(R"((TRIANGLE|RECTANGLE|CIRCLE):\s*((?:P\d=\d+,\d+;\s*)*(?:P\d=\d+,\d+)?(?:C=\d+,\d+;\s*R=\d+)?)?)");
+    std::regex shapeRegex(SHAPE_REGEX_PATTERN);
     std::smatch match;
 
     while (std::getline(file, line))
@@ -31,30 +33,30 @@ std::vector<std::unique_ptr<Decorator>> Reader::readShapes()
             std::string points = match[2];
             auto smallArray = extractPoints(points);
 
-            if (shapeType == "TRIANGLE") {
+            if (shapeType == SHAPE_TYPE_TRIANGLE) {
                 auto triangle = std::make_shared<Triangle>(
                         sf::Vector2f(smallArray[0].x, smallArray[0].y),
                         sf::Vector2f(smallArray[1].x, smallArray[1].y),
                         sf::Vector2f(smallArray[2].x, smallArray[2].y));
-                triangle->setFillColor(sf::Color(255, 0, 0));
+                triangle->setFillColor(TRIANGLE_COLOR);
 
                 std::unique_ptr<Decorator> shape = std::make_unique<TriangleDecorator>(triangle);
                 bodies.push_back(std::move(shape));
             }
-            else if (shapeType == "RECTANGLE") {
+            else if (shapeType == SHAPE_TYPE_RECTANGLE) {
                 auto rectangle = std::make_shared<Rectangle>(
                         sf::Vector2f(smallArray[0].x, smallArray[0].y),
                         sf::Vector2f(smallArray[1].x, smallArray[1].y));
-                rectangle->setFillColor(sf::Color(255, 117, 20));
+                rectangle->setFillColor(RECTANGLE_COLOR);
 
                 std::unique_ptr<Decorator> shape = std::make_unique<RectangleDecorator>(rectangle);
                 bodies.push_back(std::move(shape));
             }
-            else if (shapeType == "CIRCLE") {
+            else if (shapeType == SHAPE_TYPE_CIRCLE) {
                 auto circle = std::make_shared<Circle>(
                         sf::Vector2f(smallArray[0].x, smallArray[0].y),
                         smallArray[1].x);
-                circle->setFillColor(sf::Color(237, 118, 14));
+                circle->setFillColor(CIRCLE_COLOR);
 
                 std::unique_ptr<Decorator> shape = std::make_unique<CircleDecorator>(circle);
                 bodies.push_back(std::move(shape));
@@ -72,7 +74,7 @@ std::vector<Point> Reader::extractPoints(const std::string& points) {
 
     while (std::getline(pointsStream, point, ';'))
     {
-        if (point.empty()) continue; // Пропустить пустые строки
+        if (point.empty()) continue;
 
         std::regex pointRegex(R"((P\d=(\d+),\s*(\d+))|(C=(\d+),\s*(\d+))|(R=(\d+)))");
         std::smatch matchNumber;
@@ -80,7 +82,7 @@ std::vector<Point> Reader::extractPoints(const std::string& points) {
 
         while (std::regex_search(start, point.cend(), matchNumber, pointRegex))
         {
-            Point p;
+            Point p{};
             if (matchNumber[2].matched)
             { // RECTANGLE или TRIANGLE
                 p.x = std::stoi(matchNumber[2].str());

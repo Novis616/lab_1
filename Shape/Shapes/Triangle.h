@@ -19,6 +19,8 @@ public:
 
     void draw(sf::RenderWindow& window) const override;
     void setFillColor(const sf::Color& color);
+
+    const std::string SHAPE_NAME = "Triangle";
 private:
     std::vector<sf::Vector2f> points{};
     sf::ConvexShape shape{};

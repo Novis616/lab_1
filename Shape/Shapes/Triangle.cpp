@@ -5,7 +5,7 @@
 #include "Triangle.h"
 
 Triangle::Triangle(sf::Vector2f point1, sf::Vector2f point2, sf::Vector2f point3)
-        :IShape("Triangle")
+        :IShape(SHAPE_NAME)
 {
     shape.setPointCount(3);
     //std::vector<sf::Vector2f> points;

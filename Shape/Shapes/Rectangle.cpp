@@ -5,7 +5,7 @@
 #include "Rectangle.h"
 
 Rectangle::Rectangle(sf::Vector2f point1, sf::Vector2f point2)
-        :IShape("Rectangle")
+        :IShape(SHAPE_NAME)
 {
     points.push_back(point1);
     points.push_back(point2);

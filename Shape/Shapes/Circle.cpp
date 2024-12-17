@@ -5,7 +5,7 @@
 #include "Circle.h"
 
 Circle::Circle(sf::Vector2f point1, float mRadius)
-        :IShape("Circle")
+        :IShape(SHAPE_NAME)
 {
     shape.setRadius(mRadius);
     shape.setPosition(point1);

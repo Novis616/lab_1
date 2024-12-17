@@ -17,6 +17,10 @@ class Writer
 public:
     explicit Writer(std::string  filename);
     void writeShapes(const std::vector<std::unique_ptr<Decorator>>& shapes);
+
+    const std::string ERR_OPEN_FILE = "Не удалось открыть файл: ";
+    const std::string SHAPE_OUTPUT_TEMPLATE = ": P=";
+    const std::string AREA_OUTPUT_TEMPLATE = "; S=";
 private:
     std::string filename;
 };

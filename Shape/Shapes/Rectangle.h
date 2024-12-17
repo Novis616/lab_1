@@ -18,8 +18,9 @@ public:
 
     void draw(sf::RenderWindow& window) const override;
     void setFillColor(const sf::Color& color);
-private:
 
+    const std::string SHAPE_NAME = "Rectangle";
+private:
     std::vector<sf::Vector2f> points{};
     sf::RectangleShape shape{};
 };

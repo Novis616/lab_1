@@ -1,7 +1,11 @@
 cmake_minimum_required(VERSION 3.29)
 project(lab_1)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_PREFIX_PATH "D:/Study/OOD/SFML-2.6.2")
+find_package(SFML 2.5 COMPONENTS system window graphics REQUIRED)
+
+find_package(SFML 2.5 COMPONENTS graphics REQUIRED)
 
 add_executable(lab_1 main.cpp
         Shape/IShape.cpp
@@ -27,3 +31,5 @@ add_executable(lab_1 main.cpp
         IO/Writer.cpp
         IO/Writer.h
 )
+
+target_link_libraries(lab_1 sfml-graphics sfml-window sfml-system)

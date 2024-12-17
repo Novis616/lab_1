@@ -5,7 +5,6 @@
 #ifndef LAB_1_CIRCLE_H
 #define LAB_1_CIRCLE_H
 
-
 #include "../../Lib.h"
 #include "../../Point.h"
 #include "../IShape.h"
@@ -19,6 +18,7 @@ public:
     [[nodiscard]] float GetRadius() const;
     void draw(sf::RenderWindow& window) const override;
     void setFillColor(const sf::Color& color);
+    const std::string SHAPE_NAME = "Circle";
 private:
     sf::Vector2f center{};
     sf::CircleShape shape{};
