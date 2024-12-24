@@ -52,77 +52,77 @@ build cmake_object_order_depends_target_lab_1: phony || .
 build CMakeFiles/lab_1.dir/main.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/main.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir
 
 build CMakeFiles/lab_1.dir/Shape/IShape.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Shape/IShape.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Shape\IShape.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Shape
 
 build CMakeFiles/lab_1.dir/IO/Reader.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/IO/Reader.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\IO\Reader.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\IO
 
 build CMakeFiles/lab_1.dir/Decorators/CircleDecorator.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Decorators/CircleDecorator.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Decorators\CircleDecorator.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Decorators
 
 build CMakeFiles/lab_1.dir/Decorators/Decorator.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Decorators/Decorator.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Decorators\Decorator.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Decorators
 
 build CMakeFiles/lab_1.dir/Shape/Shapes/Circle.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Shape/Shapes/Circle.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Shape\Shapes\Circle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Shape\Shapes
 
 build CMakeFiles/lab_1.dir/Shape/Shapes/Rectangle.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Shape/Shapes/Rectangle.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Shape\Shapes\Rectangle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Shape\Shapes
 
 build CMakeFiles/lab_1.dir/Shape/Shapes/Triangle.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Shape/Shapes/Triangle.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Shape\Shapes\Triangle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Shape\Shapes
 
 build CMakeFiles/lab_1.dir/Decorators/RectangleDecorator.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Decorators/RectangleDecorator.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Decorators\RectangleDecorator.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Decorators
 
 build CMakeFiles/lab_1.dir/Decorators/TriangleDecorator.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/Decorators/TriangleDecorator.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\Decorators\TriangleDecorator.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\Decorators
 
 build CMakeFiles/lab_1.dir/IO/Writer.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debug D$:/Study/OOD/lab_1/IO/Writer.cpp || cmake_object_order_depends_target_lab_1
   DEP_FILE = CMakeFiles\lab_1.dir\IO\Writer.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -isystem D:/Study/OOD/SFML-2.6.2/include
+  INCLUDES = -isystem C:/SFML/include
   OBJECT_DIR = CMakeFiles\lab_1.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_1.dir\IO
 
@@ -134,9 +134,9 @@ build CMakeFiles/lab_1.dir/IO/Writer.cpp.obj: CXX_COMPILER__lab_1_unscanned_Debu
 #############################################
 # Link the executable lab_1.exe
 
-build lab_1.exe: CXX_EXECUTABLE_LINKER__lab_1_Debug CMakeFiles/lab_1.dir/main.cpp.obj CMakeFiles/lab_1.dir/Shape/IShape.cpp.obj CMakeFiles/lab_1.dir/IO/Reader.cpp.obj CMakeFiles/lab_1.dir/Decorators/CircleDecorator.cpp.obj CMakeFiles/lab_1.dir/Decorators/Decorator.cpp.obj CMakeFiles/lab_1.dir/Shape/Shapes/Circle.cpp.obj CMakeFiles/lab_1.dir/Shape/Shapes/Rectangle.cpp.obj CMakeFiles/lab_1.dir/Shape/Shapes/Triangle.cpp.obj CMakeFiles/lab_1.dir/Decorators/RectangleDecorator.cpp.obj CMakeFiles/lab_1.dir/Decorators/TriangleDecorator.cpp.obj CMakeFiles/lab_1.dir/IO/Writer.cpp.obj | D$:/Study/OOD/SFML-2.6.2/lib/sfml-graphics-d.lib D$:/Study/OOD/SFML-2.6.2/lib/sfml-window-d.lib D$:/Study/OOD/SFML-2.6.2/lib/sfml-system-d.lib
+build lab_1.exe: CXX_EXECUTABLE_LINKER__lab_1_Debug CMakeFiles/lab_1.dir/main.cpp.obj CMakeFiles/lab_1.dir/Shape/IShape.cpp.obj CMakeFiles/lab_1.dir/IO/Reader.cpp.obj CMakeFiles/lab_1.dir/Decorators/CircleDecorator.cpp.obj CMakeFiles/lab_1.dir/Decorators/Decorator.cpp.obj CMakeFiles/lab_1.dir/Shape/Shapes/Circle.cpp.obj CMakeFiles/lab_1.dir/Shape/Shapes/Rectangle.cpp.obj CMakeFiles/lab_1.dir/Shape/Shapes/Triangle.cpp.obj CMakeFiles/lab_1.dir/Decorators/RectangleDecorator.cpp.obj CMakeFiles/lab_1.dir/Decorators/TriangleDecorator.cpp.obj CMakeFiles/lab_1.dir/IO/Writer.cpp.obj | C$:/SFML/lib/libsfml-graphics-d.a C$:/SFML/lib/libsfml-window-d.a C$:/SFML/lib/libsfml-system-d.a
   FLAGS = -g
-  LINK_LIBRARIES = D:/Study/OOD/SFML-2.6.2/lib/sfml-graphics-d.lib  D:/Study/OOD/SFML-2.6.2/lib/sfml-window-d.lib  D:/Study/OOD/SFML-2.6.2/lib/sfml-system-d.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/SFML/lib/libsfml-graphics-d.a  C:/SFML/lib/libsfml-window-d.a  C:/SFML/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -189,14 +189,14 @@ build all: phony lab_1.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLConfig.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLConfigDependencies.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLConfigVersion.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets-debug.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets-release.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets.cmake D$:/Study/OOD/lab_1/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/SFML/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML/lib/cmake/SFML/SFMLSharedTargets-debug.cmake C$:/SFML/lib/cmake/SFML/SFMLSharedTargets-release.cmake C$:/SFML/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake D$:/Study/OOD/lab_1/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLConfig.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLConfigDependencies.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLConfigVersion.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets-debug.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets-release.cmake D$:/Study/OOD/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets.cmake D$:/Study/OOD/lab_1/CMakeLists.txt: phony
+build C$:/SFML/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML/lib/cmake/SFML/SFMLSharedTargets-debug.cmake C$:/SFML/lib/cmake/SFML/SFMLSharedTargets-release.cmake C$:/SFML/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Programs/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake D$:/Study/OOD/lab_1/CMakeLists.txt: phony
 
 
 #############################################

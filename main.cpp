@@ -1,4 +1,3 @@
-#include <SFML/Graphics.hpp>
 #include "Lib.h"
 #include "Point.h"
 #include "Shape/Shapes/Triangle.h"

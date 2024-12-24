@@ -32,7 +32,12 @@ std::vector<std::unique_ptr<Decorator>> Reader::readShapes()
             std::string shapeType = match[1];
             std::string points = match[2];
             auto smallArray = extractPoints(points);
-
+            std::cout << smallArray[0].x << " "
+            << smallArray[0].y << " "
+            << smallArray[1].x << " "
+            << smallArray[1].y << " "
+            << smallArray[2].x << " "
+            << smallArray[2].y << " " << std::endl;
             if (shapeType == SHAPE_TYPE_TRIANGLE) {
                 auto triangle = std::make_shared<Triangle>(
                         sf::Vector2f(smallArray[0].x, smallArray[0].y),
